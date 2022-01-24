@@ -3,16 +3,6 @@
 
 This repository containts an Ethereum DApp that demonstrates a Supply Chain flow between a Seller and Buyer. The user story is similar to any commonly used supply chain process. A Seller can add items to the inventory system stored in the blockchain. A Buyer can purchase such items from the inventory system. Additionally a Seller can mark an item as Shipped, and similarly a Buyer can mark an item as Received.
 
-The DApp User Interface when running should look like...
-
-![truffle test](images/ftc_product_overview.png)
-
-![truffle test](images/ftc_farm_details.png)
-
-![truffle test](images/ftc_product_details.png)
-
-![truffle test](images/ftc_transaction_history.png)
-
 
 ## Getting Started
 
@@ -61,10 +51,6 @@ In a separate terminal window, Compile smart contracts:
 truffle compile
 ```
 
-Your terminal should look something like this:
-
-![truffle test](images/truffle_compile.png)
-
 This will create the smart contract artifacts in folder ```build\contracts```.
 
 Migrate smart contracts to the locally running blockchain, ganache-cli:
@@ -73,9 +59,8 @@ Migrate smart contracts to the locally running blockchain, ganache-cli:
 truffle migrate
 ```
 
-Your terminal should look something like this:
 
-![truffle test](images/truffle_migrate.png)
+Migrated on local blockchain.
 
 Test smart contracts:
 
